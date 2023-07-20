@@ -7,7 +7,7 @@ import NewZealand from '../../assets/Flags/new-zealand.png'
 
 const Page = styled.div`
   min-height: 100vh;
-  background: #10104C;
+  background: #2A37E6;
   display: flex;
   flex-direction: column;
   align-items: center;

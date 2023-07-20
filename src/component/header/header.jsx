@@ -1,5 +1,5 @@
 import React from "react";
-import logo from '../../assets/logo.svg';
+import logo from "../../assets/logo.svg";
 import UserDropdown from "./UserDropdown";
 import styled from "styled-components";
 
@@ -31,7 +31,7 @@ const Logo = styled.img`
 const HeaderLinks = styled.a`
   font-size: 20px;
   font-weight: bold;
-  color: ${props => props.isPrimary ? '#2d3748' : '#718096'};
+  color: ${(props) => (props.isPrimary ? "#2d3748" : "#718096")};
   margin-right: 40px;
 `;
 
@@ -43,24 +43,16 @@ const Header = () => {
   return (
     <HeaderContainer>
       <HeaderContent>
-        <HeaderLinks href="/" isPrimary>
-          <Logo src={logo} alt="logo" href="/"/>
+        <HeaderLinks href="/visitors/welcomePage" isPrimary>
+          <Logo src={logo} alt="logo" href="/visitors/" />
         </HeaderLinks>
-        <HeaderLinks href="/welcomePage" isPrimary>
+        <HeaderLinks href="/visitors/matchs" isPrimary>
           Matchs
         </HeaderLinks>
-        <HeaderLinks href="/poules">
-          Poules
-        </HeaderLinks>
-        <HeaderLinks href="/">
-          Faire une demande
-        </HeaderLinks>
-        <HeaderLinks href="/">
-          Vos accréditations
-        </HeaderLinks>
-        <HeaderLinks href="/chat">
-          Chat
-        </HeaderLinks>
+        <HeaderLinks href="/visitors/poules">Poules</HeaderLinks>
+        <HeaderLinks href="/visitors/stadium">Faire une demande</HeaderLinks>
+        <HeaderLinks href="/visitors/">Vos accréditations</HeaderLinks>
+        <HeaderLinks href="/visitors/chat">Chat</HeaderLinks>
         <DropdownContainer>
           <UserDropdown />
         </DropdownContainer>

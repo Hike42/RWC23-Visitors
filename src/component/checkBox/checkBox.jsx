@@ -33,7 +33,7 @@ const CheckboxLine = ({ texte, forgot }) => {
         />
         <span className="checkbox-text">{texte}</span>
       </CheckboxLabel>
-      <CheckboxLink href="/forgot-password">{forgot}</CheckboxLink>
+      <CheckboxLink href="/visitors/forgot-password">{forgot}</CheckboxLink>
     </CheckboxContainer>
   );
 };

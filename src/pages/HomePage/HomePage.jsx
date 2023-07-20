@@ -126,7 +126,7 @@ function HomePage() {
           <ContentSubtitle>
             Vous n’avez pas de compte ?
             <WrapperSubscribe>
-              <Link to="/signup" className="subscribe">
+              <Link to="/visitors/signup" className="subscribe">
                 S'inscrire
               </Link>
             </WrapperSubscribe>
@@ -168,7 +168,7 @@ function HomePage() {
               placeholder="exemple@mail.com"
             />
             <Input title="Mot de passe" placeholder="Mot de passe" />
-            <Link to="/welcomePage" className="welcomePage">
+            <Link to="/visitors/welcomePage" className="welcomePage">
               <Button
                 text="Connexion"
                 logoSrc=""
