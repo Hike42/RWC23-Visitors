@@ -1,0 +1,88 @@
+.signupContent {
+    position: absolute;
+    top: 50px;
+    color: #ffffff;
+    text-align: center;
+    width: 415px;
+    padding-bottom: 100px;
+}
+
+.singupButton-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.singupButton-wrapper .button {
+    margin-bottom: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  
+}
+
+.content p {
+    display: inline-block;
+    min-width: 100%;
+    word-wrap: break-word;
+    font-size: 14px;
+}
+
+.signin {
+    color: #fff; 
+    text-underline-offset: 4px;
+    text-decoration-thickness: 0.8px;
+    margin-top: -20px;
+    margin-left: 4px;
+}
+
+.gradient-section {
+    height: 100vh;
+    overflow-y: auto;
+  }
+
+.accountDetailTitle, .contactDetailTitle, .preferencesDetailTitle, .signup {
+    width: 100%;
+    display: flex;
+    text-align: left;
+    border-bottom: 0.8px solid #fff;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+}
+
+.signupGradientLogo {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    width: 125px;
+    height: auto;
+}
+
+.passwordSubtitle {
+    margin-top: -10px;
+    text-align: left;
+    font-size: 10px;
+}
+
+.preferences {
+    margin-bottom: 16px;
+}
+
+.checkBox {
+    text-align: left;
+}
+
+.sign Button {
+    margin-top: 30px;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .checkbox-line {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .checkbox-text {
+    margin-left: 10px;
+  }
