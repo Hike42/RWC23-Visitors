@@ -8,6 +8,7 @@ import WelcomePage from "./pages/welcomePage/welcomePage";
 import Poules from "./pages/poules/poules";
 import Matchs from "./pages/matchs/matchs";
 import Stadium from "./pages/stadium/stadium";
+import Chat from "./pages/chat/chat";
 import logo from "./assets/logo-title.png";
 import gradientLogo from "./assets/rugby-petit.svg";
 import appleLogo from "./assets/appleWhiteLogo.svg";
@@ -101,6 +102,7 @@ function App() {
           <Route path="/visitors/poules" element={<Poules />} />
           <Route path="/visitors/matchs" element={<Matchs />} />
           <Route path="/visitors/stadium" element={<Stadium />} />
+          <Route path="/visitors/chat" element={<Chat />} />
         </Routes>
       </Router>
     </MatchProvider>
