@@ -9,6 +9,7 @@ import Poules from "./pages/poules/poules";
 import Matchs from "./pages/matchs/matchs";
 import Stadium from "./pages/stadium/stadium";
 import Chat from "./pages/chat/chat";
+import Accreditation from "./pages/accreditation/accreditation";
 import logo from "./assets/logo-title.png";
 import gradientLogo from "./assets/rugby-petit.svg";
 import appleLogo from "./assets/appleWhiteLogo.svg";
@@ -103,6 +104,7 @@ function App() {
           <Route path="/visitors/matchs" element={<Matchs />} />
           <Route path="/visitors/stadium" element={<Stadium />} />
           <Route path="/visitors/chat" element={<Chat />} />
+          <Route path="/visitors/accreditation" element={<Accreditation/>}/>
         </Routes>
       </Router>
     </MatchProvider>
