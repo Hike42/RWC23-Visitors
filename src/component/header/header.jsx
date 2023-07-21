@@ -51,7 +51,7 @@ const Header = () => {
         </HeaderLinks>
         <HeaderLinks href="/visitors/poules">Poules</HeaderLinks>
         <HeaderLinks href="/visitors/stadium">Faire une demande</HeaderLinks>
-        <HeaderLinks href="/visitors/">Vos accréditations</HeaderLinks>
+        <HeaderLinks href="/visitors/accreditation">Vos accréditations</HeaderLinks>
         <HeaderLinks href="/visitors/chat">Chat</HeaderLinks>
         <DropdownContainer>
           <UserDropdown />

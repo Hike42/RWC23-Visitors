@@ -95,7 +95,7 @@ const Button = styled.button`
       team1Name,
       team2Name,
     });
-    navigate('/stadium');
+    navigate('/visitors/stadium');
   };
 
   return (
